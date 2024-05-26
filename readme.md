@@ -5,8 +5,12 @@ Pipe17 is a powerful platform for integrating and automating business operations
 ## Usage
 
 ### Snowflake
-#### snowflake.ipynb
+You can import these notebook into snowflake via the App portal and run it against the Pipe17 data. Update the Database and Schema name.
+#### snowflake/order.ipynb
 This Jupyter notebook allow you to run a basic report that show you the order aging report to figure out how many order is in various status. It also provide an revenue report
+#### snowflake/inventory_forecast.ipynb
+This Jupyter notebook allow you to run a basic report that show you the inventory forecast report to figure out how many inventory you need to order to meet the demand.
+
 
 ## Contributing
 We welcome contributions to this repository! If you have an idea for a new script or an improvement to an existing script, please follow these steps:
@@ -15,15 +19,15 @@ We welcome contributions to this repository! If you have an idea for a new scrip
 
 2. Create a new branch for your feature or bug fix:
 
-    `git checkout -b feature/your-feature-name`
+    > `git checkout -b feature/your-feature-name`
 
 3. Make your changes and commit them with a clear and concise message:
 
-    `git commit -m "Add feature: your feature name"`
+    > `git commit -m "Add feature: your feature name"`
 
 4. Push your changes to your forked repository:
 
-    `git push origin feature/your-feature-name`
+    > `git push origin feature/your-feature-name`
 
 5. Open a pull request in this repository, describing your changes and the motivation behind them.
 
